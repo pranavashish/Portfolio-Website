@@ -39,11 +39,11 @@
                 <i class="uil nav__icon uil-file-alt"></i> Skills
               </a>
             </li>
-            <!-- <li class="nav__item">
-              <a href="#services" class="nav__link">
-                <i class="uil nav__icon uil-briefcase-alt"></i> Services
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="uil nav__icon uil-briefcase-alt"></i> Experience
               </a>
-            </li> -->
+            </li>
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
                 <i class="uil nav__icon uil-scenery"></i> Projects
@@ -371,7 +371,7 @@
         </div>
       </section>
 
-      <section class="qualification section">
+      <section class="qualification section" id="experience">
         <h2 class="section__title">Experience</h2>
         <span class="section__subtitle">My Qualifications</span>
 
@@ -381,12 +381,13 @@
               class="qualification__button button--flex qualification__active"
               data-target="#education"
             >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+
+              Work
             </div>
             <div class="qualification__button button--flex" data-target="#work">
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
             </div>
           </div>
           <div class="qualification__sections">
@@ -397,16 +398,13 @@
             >
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">
-                    B.Tech in <br />
-                    Computer Science
-                  </h3>
+                  <h3 class="qualification__title">Frontend Developer</h3>
                   <span class="qualification__subtitle"
-                    >Maharshi Dayanand University</span
+                    >NextGenVision Technology</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2018 - 2022
+                    Feb 2023 – Present
                   </div>
                 </div>
 
@@ -425,22 +423,26 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Class XII</h3>
-                  <span class="qualification__subtitle">CBSE</span>
+                  <h3 class="qualification__title">Teaching Assistant</h3>
+                  <span class="qualification__subtitle">Coding Ninjas</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2016 - 2018
+                    Jun 2022 – Oct 2022
                   </div>
                 </div>
               </div>
 
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Class X</h3>
-                  <span class="qualification__subtitle">CBSE</span>
+                  <h3 class="qualification__title">
+                    Software Development Intern
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Infracia Technologies</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2004 - 2016
+                    Jun 2020 – Aug 2020
                   </div>
                 </div>
 
@@ -460,24 +462,32 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Frontend Developer</h3>
+                  <h3 class="qualification__title">
+                    B.Tech in <br />
+                    Computer Science
+                  </h3>
                   <span class="qualification__subtitle"
-                    >NextGenVision Technology</span
+                    >KIIT College of Engineering</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    Feb 2023 – Present
+                    2018 - 2022
                   </div>
                 </div>
               </div>
 
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Teaching Assistant</h3>
-                  <span class="qualification__subtitle">Coding Ninjas</span>
+                  <h3 class="qualification__title">
+                    Class XII <br />
+                    CBSE
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Lal Bahadur Shastri School</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    Jun 2022 – Oct 2022
+                    2018
                   </div>
                 </div>
 
@@ -496,14 +506,15 @@
 
                 <div>
                   <h3 class="qualification__title">
-                    Software Development Intern
+                    Class X <br />
+                    CBSE
                   </h3>
                   <span class="qualification__subtitle"
-                    >Infracia Technologies</span
+                    >Mount Carmel School</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    Jun 2020 – Aug 2020
+                    2016
                   </div>
                 </div>
               </div>
@@ -835,10 +846,11 @@
               <label for="" class="contact__label">Message</label>
               <textarea
                 name=""
-                id=""
+                id="contact__textt"
                 cols="0"
-                rows="7"
+                rows="5"
                 class="contact__input"
+                placeholder="This form may not be working, but if I were to build one for you, it would works flawlessly."
               ></textarea>
               <input type="text" class="contact__input" />
             </div>

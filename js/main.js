@@ -61,27 +61,27 @@ tabs.forEach((tab) => {
   });
 });
 
-const modalViews = document.querySelectorAll(".services__modal");
-const modalBtns = document.querySelectorAll(".services__button");
-const modalCloses = document.querySelectorAll(".services__modal-close");
+// const modalViews = document.querySelectorAll(".services__modal");
+// const modalBtns = document.querySelectorAll(".services__button");
+// const modalCloses = document.querySelectorAll(".services__modal-close");
 
-let modal = function (modalClick) {
-  modalViews[modalClick].classList.add("active-modal");
-};
+// let modal = function (modalClick) {
+//   modalViews[modalClick].classList.add("active-modal");
+// };
 
-modalBtns.forEach((modalBtn, index) => {
-  modalBtn.addEventListener("click", () => {
-    modal(index);
-  });
-});
+// modalBtns.forEach((modalBtn, index) => {
+//   modalBtn.addEventListener("click", () => {
+//     modal(index);
+//   });
+// });
 
-modalCloses.forEach((modalClose, index) => {
-  modalClose.addEventListener("click", () => {
-    modalViews.forEach((modalView) => {
-      modalView.classList.remove("active-modal");
-    });
-  });
-});
+// modalCloses.forEach((modalClose, index) => {
+//   modalClose.addEventListener("click", () => {
+//     modalViews.forEach((modalView) => {
+//       modalView.classList.remove("active-modal");
+//     });
+//   });
+// });
 
 var swiperPortfolio = new Swiper(".portfolio__container", {
   cssMode: true,

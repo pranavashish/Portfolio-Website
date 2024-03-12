@@ -934,6 +934,11 @@ img {
   color: #fff;
 }
 
+#contact__textt::placeholder {
+  opacity: 0.6;
+  color: #a9a9a9;
+  font-size: 0.92vw;
+}
 .scrollup {
   position: fixed;
   right: 1rem;
