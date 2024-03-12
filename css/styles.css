@@ -458,7 +458,7 @@ img {
 
 .skills__titles {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: var(--mb-0-5);
 }
 
@@ -469,13 +469,15 @@ img {
 
 .skills__bar,
 .skills__percentage {
+  display: flex;
+  justify-content: center;
   height: 5px;
   border-radius: 0.25rem;
 }
 
-.skills__bar {
+/* .skills__bar {
   background-color: var(--first-color-lighter);
-}
+} */
 
 .skills__percentage {
   display: block;
@@ -483,43 +485,43 @@ img {
 }
 
 .skills__html {
-  width: 90%;
-}
-
-.skills__css {
-  width: 70%;
-}
-
-.skills__js {
-  width: 70%;
-}
-
-.skills__react {
   width: 20%;
 }
 
-.skills__java {
-  width: 60%;
+.skills__css {
+  width: 15%;
 }
 
-.skills__node {
-  width: 10%;
+.skills__js {
+  width: 40%;
 }
 
-.skills__py {
+.skills__react {
   width: 30%;
 }
 
+.skills__java {
+  width: 20%;
+}
+
+.skills__node {
+  width: 30%;
+}
+
+/* .skills__py {
+  width: 100%;
+} */
+
 .skills__exjs {
-  width: 10%;
+  width: 40%;
 }
 
 .skills__sql {
-  width: 80%;
+  width: 30%;
 }
 
 .skills__mongo {
-  width: 10%;
+  width: 40%;
 }
 
 .skills__close .skills__list {
