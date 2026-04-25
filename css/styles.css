@@ -484,43 +484,67 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
+.skills__apex {
   width: 20%;
 }
 
-.skills__css {
-  width: 15%;
+.skills__soql {
+  width: 20%;
 }
 
 .skills__js {
-  width: 40%;
+  width: 38%;
 }
 
-.skills__react {
-  width: 30%;
+.skills__web{
+  width: 38%;
 }
 
-.skills__java {
+.skills__lwc {
+  width: 87%;
+}
+
+.skills__trigger {
+  width: 45%;
+}
+
+.skills__async {
+  width: 62%;
+}
+
+.skills__test{
+  width: 38%;
+}
+
+.skills__flow {
   width: 20%;
 }
 
-.skills__node {
+.skills__api {
   width: 30%;
 }
 
-/* .skills__py {
-  width: 100%;
-} */
-
-.skills__exjs {
-  width: 40%;
+.skills__nc {
+  width: 60%;
 }
 
-.skills__sql {
-  width: 30%;
+.skills__ap {
+  width: 60%;
 }
 
-.skills__mongo {
+.skills__ps {
+  width: 50%;
+}
+
+.skills__sr {
+  width: 45%;
+}
+
+.skills__vr {
+  width: 55%;
+}
+
+.skills__dl {
   width: 40%;
 }
 
